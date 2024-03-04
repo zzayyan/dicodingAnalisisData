@@ -1,4 +1,4 @@
-# Dicoding Collection Dashboard ✨
+# Ecommerce Public Dataset ✨
 
 ## Setup environment
 ```
