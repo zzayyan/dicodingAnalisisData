@@ -29,7 +29,7 @@ def create_lowAverage_review_score(df, average_review_score):
     lowAverage_review_score_df = average_review_score.sort_values(by=('review_score', 'mean'), ascending=True)
     return lowAverage_review_score_df
 
-all_df =pd.read_csv("main_data.csv")
+all_df =pd.read_csv("dashboard/main_data.csv")
 all_df.head()
 
 most_order_categoryProduct_df = create_most_categoryProduct_ordered(all_df)
